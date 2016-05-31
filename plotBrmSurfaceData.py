@@ -21,7 +21,7 @@ import matplotlib
 
 filename = '/rhome/dconrad/Desktop/QLCS_Tor_Cases/Albertville_20150104/MIPS/brm_20150104_sfc_Short.dat'
 
-
+#Import data
 data = np.loadtxt(filename, delimiter = ',')
 
 year = data[:,1]
@@ -31,7 +31,7 @@ sec = data[:,4]
 pres = data[:,5]
 #temp = data[:,6]
 relHum = data[:,7]
-#? = data[:,8]
+#dewPt = data[:,8]
 windSpeed = data[:,9]
 windDir = data[:,10]
 #? = data[:,11]
