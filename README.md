@@ -1,2 +1,2 @@
 # plot-brm-data
-Script that plots birm data at SWIRLL
+Script that plots berm data at SWIRLL
